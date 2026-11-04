@@ -1,0 +1,12 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+
+metadata:
+  name: microservice-template
+
+spec:
+  owner: platform-team
+
+  steps:
+    - id: generate-service
+      name: Generate Service

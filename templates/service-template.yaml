@@ -1,0 +1,17 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+
+metadata:
+  name: service-template
+  title: Microservice Template
+
+spec:
+  owner: platform-team
+  type: service
+
+  parameters:
+    - title: Service Information
+
+  steps:
+    - id: create-repository
+      name: Create Repository
